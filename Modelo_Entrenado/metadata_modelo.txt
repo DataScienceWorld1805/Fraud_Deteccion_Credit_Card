@@ -1,0 +1,26 @@
+================================================================================
+METADATOS DEL MODELO DE DETECCIÓN DE FRAUDE
+================================================================================
+
+Fecha de entrenamiento: 2026-01-08 22:09:52
+Tipo de modelo: XGBoost Classifier
+Objetivo: binary:logistic
+Métrica de evaluación: aucpr
+
+Parámetros del modelo:
+  - max_depth: 6
+  - learning_rate: 0.1
+  - n_estimators: 200
+  - subsample: 0.8
+  - colsample_bytree: 0.8
+
+Rendimiento en conjunto de prueba:
+  - Accuracy: 0.9994
+  - Precision (Fraude): 0.9989
+  - Recall (Sensibilidad): 1.0000
+  - F1-Score: 0.9994
+  - AUC-ROC: 1.0000
+  - AUC-PR: 1.0000
+
+Total de features: 29
+Features: V1, V2, V3, V4, V5, V6, V7, V8, V9, V10, V11, V12, V13, V14, V15, V16, V17, V18, V19, V20, V21, V22, V23, V24, V25, V26, V27, V28, Amount
